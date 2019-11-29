@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdd26dce-ab60-4054-a8b9-a900f77bf74f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheGoodLaplace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShelterInLaplace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goodlaplace/SimpleWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goodlaplace/SimpleWindow.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +41,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -65,7 +70,7 @@
   <component name="RunManager" selected="JUnit.LaplaceRelaxTest.highAndLowCorners">
     <configuration name="LaplaceRelax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.goodlaplace.LaplaceRelax" />
-      <module name="TheGoodLaplace" />
+      <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.goodlaplace.*" />
@@ -77,7 +82,7 @@
       </method>
     </configuration>
     <configuration name="ConwayGameOfLifeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheGoodLaplace" />
+      <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.goodlaplace.*" />
@@ -92,7 +97,7 @@
       </method>
     </configuration>
     <configuration name="LaplaceRelaxTest.highAndLowCorners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheGoodLaplace" />
+      <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.goodlaplace.*" />
@@ -108,7 +113,7 @@
       </method>
     </configuration>
     <configuration name="LaplaceRelaxTest.oneHighCorner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheGoodLaplace" />
+      <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.goodlaplace.*" />
@@ -124,7 +129,7 @@
       </method>
     </configuration>
     <configuration name="LaplaceRelaxTest.threeHighCorners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheGoodLaplace" />
+      <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.goodlaplace.*" />
@@ -163,6 +168,7 @@
       <workItem from="1574991279103" duration="4522000" />
       <workItem from="1575034395232" duration="2281000" />
       <workItem from="1575037860686" duration="6230000" />
+      <workItem from="1575068406851" duration="965000" />
     </task>
     <servers />
   </component>
@@ -192,12 +198,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java</url>
-          <line>52</line>
+          <line>57</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java</url>
-          <line>69</line>
+          <line>74</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

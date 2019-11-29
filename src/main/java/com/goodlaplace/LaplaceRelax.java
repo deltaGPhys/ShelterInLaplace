@@ -8,8 +8,11 @@ public class LaplaceRelax {
 
     private int dimension;
     private double[][] world;
+    private double[][] velocity;
     private SimpleWindow displayWindow;
     private double maxHeight = 100;
+    private double k = .01;
+    private double d = .01;
 
     public LaplaceRelax() {
 
@@ -19,6 +22,8 @@ public class LaplaceRelax {
         this.displayWindow = new SimpleWindow(dimension, boxSize);
         this.dimension = dimension;
         this.world = createStartBorders(this.dimension, topLeft, topRight, bottomLeft, bottomRight);
+        this.velocity = new double[dimension][dimension];
+        IntStream.range(0,dimension).forEach(row -> Arrays.fill(velocity[row],0.0));
      }
 
     public double getMaxHeight() {
@@ -66,7 +71,7 @@ public class LaplaceRelax {
             }
 
             copyAndZeroOut(next, current);
-            this.displayWindow.sleep(125);
+            this.displayWindow.sleep(25);
         }
         return current;
     }
@@ -94,7 +99,13 @@ public class LaplaceRelax {
                 world[(row+1)%dim][(dim+col-1)%dim] + world[(dim+row-1)%dim][(dim+col-1)%dim];
         double neighborAvg = neighborSum/8;
 
-        return neighborAvg;
+        // accel = k*(neighborAvg-currentVal) (Hooke's law)      k is a scaling factor
+        // velocity = (currentVel + accel)*(1-d)                 d is a damping factor
+        // newPosition = oldPosition + velocity (assuming deltat of unity; still making my heart cry)
+
+        double accel = this.k*(neighborAvg-world[row][col]);
+        this.velocity[row][col] = (this.velocity[row][col] + accel)*(1-this.d);
+        return world[row][col] + this.velocity[row][col];
     }
 
 

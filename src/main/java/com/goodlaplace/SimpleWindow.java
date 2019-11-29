@@ -40,7 +40,7 @@ public class SimpleWindow {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[0].length; j++) {
                 g.drawRect(i * this.boxDim, j * this.boxDim, this.boxDim, this.boxDim);
-                g.setColor(new Color(0,0,(int) Math.rint(255*array[j][i]/maxHeight)));
+                g.setColor(new Color(0,0,(int) Math.rint(63 + 128*array[j][i]/maxHeight)));
                 g.fillRect(i * this.boxDim-1, j * this.boxDim, this.boxDim+1, this.boxDim);
             }
         }

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="TheGoodLaplace" />
+        <module name="ShelterInLaplace" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TheGoodLaplace" target="8" />
+      <module name="ShelterInLaplace" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
