@@ -1,8 +1,8 @@
-This is a relaxation-method solver for [Laplace's equation](https://en.wikipedia.org/wiki/Laplace%27s_equation) with continuum motion. 
+This is a relaxation-method solver for [Laplace's equation](https://en.wikipedia.org/wiki/Laplace%27s_equation) with motion of the lattice. 
 Forked from (https://github.com/deltaGPhys/TheGoodLaplace) -> (https://github.com/deltaGPhys/ForestFire) -> (https://github.com/deltaGPhys/ConwayGameOfLife) -> (https://github.com/Zipcoder/ConwayGameOfLife)
 
 ### Background
-See https://github.com/deltaGPhys/TheGoodLaplace for background on the equation and the relaxation method for finding numerical solutions
+See https://github.com/deltaGPhys/TheGoodLaplace for background on the equation and the relaxation method for finding numerical solutions.
 
 ### Execution
 In this implementation, the cells in the array are simulated as if they are discrete parts of a moving lattice. Each element feels an average force
