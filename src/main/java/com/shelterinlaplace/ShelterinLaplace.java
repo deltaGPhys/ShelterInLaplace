@@ -1,10 +1,10 @@
-package com.goodlaplace;
+package com.shelterinlaplace;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.IntStream;
 
-public class LaplaceRelax {
+public class ShelterinLaplace {
 
     private int dimension;
     private double[][] world;
@@ -14,11 +14,11 @@ public class LaplaceRelax {
     private double k = .01;
     private double d = .01;
 
-    public LaplaceRelax() {
+    public ShelterinLaplace() {
 
     }
 
-    public LaplaceRelax(int dimension, int boxSize, double topLeft, double topRight, double bottomLeft, double bottomRight) {
+    public ShelterinLaplace(int dimension, int boxSize, double topLeft, double topRight, double bottomLeft, double bottomRight) {
         this.displayWindow = new SimpleWindow(dimension, boxSize);
         this.dimension = dimension;
         this.world = createStartBorders(this.dimension, topLeft, topRight, bottomLeft, bottomRight);

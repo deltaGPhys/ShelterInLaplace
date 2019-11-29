@@ -1,4 +1,4 @@
-package com.goodlaplace;
+package com.shelterinlaplace;
 
 import javax.swing.*;
 import java.awt.*;
@@ -8,7 +8,6 @@ public class SimpleWindow {
     static JFrame frame;
     private Integer dim;
     private Integer boxDim;
-    private static final Color color = new Color(0, 0, 255);
 
     public SimpleWindow(Integer dimension, int boxSize) {
         this.boxDim = boxSize;
@@ -40,7 +39,7 @@ public class SimpleWindow {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[0].length; j++) {
                 g.drawRect(i * this.boxDim, j * this.boxDim, this.boxDim, this.boxDim);
-                g.setColor(new Color(0,0,(int) Math.rint(63 + 128*array[j][i]/maxHeight)));
+                g.setColor(Color.getHSBColor((float) (.7 - .9*array[j][i]/maxHeight),1,.8f));
                 g.fillRect(i * this.boxDim-1, j * this.boxDim, this.boxDim+1, this.boxDim);
             }
         }

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdd26dce-ab60-4054-a8b9-a900f77bf74f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheGoodLaplace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShelterInLaplace.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goodlaplace/SimpleWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/goodlaplace/SimpleWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shelterinlaplace/ShelterinLaplace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/goodlaplace/SimpleWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shelterinlaplace/SimpleWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/goodlaplace/LaplaceRelaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shelterinlaplace/ShelterinLaplaceTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,13 +65,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LaplaceRelaxTest.highAndLowCorners">
-    <configuration name="LaplaceRelax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.goodlaplace.LaplaceRelax" />
+  <component name="RunManager" selected="JUnit.ShelterinLaplaceTest.highAndLowCorners">
+    <configuration name="ShelterinLaplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shelterinlaplace.ShelterinLaplace" />
       <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.goodlaplace.*" />
+          <option name="PATTERN" value="com.shelterinlaplace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,63 +79,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConwayGameOfLifeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShelterinLaplaceTest.adjacentHighCorners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.goodlaplace.*" />
+          <option name="PATTERN" value="com.shelterinlaplace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zipcodeconway" />
-      <option name="MAIN_CLASS_NAME" value="com.zipcodeconway.ConwayGameOfLifeTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.shelterinlaplace" />
+      <option name="MAIN_CLASS_NAME" value="com.shelterinlaplace.ShelterinLaplaceTest" />
+      <option name="METHOD_NAME" value="adjacentHighCorners" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaplaceRelaxTest.highAndLowCorners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShelterinLaplaceTest.highAndLowCorners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.goodlaplace.*" />
+          <option name="PATTERN" value="com.shelterinlaplace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.goodlaplace" />
-      <option name="MAIN_CLASS_NAME" value="com.goodlaplace.LaplaceRelaxTest" />
+      <option name="PACKAGE_NAME" value="com.shelterinlaplace" />
+      <option name="MAIN_CLASS_NAME" value="com.shelterinlaplace.ShelterinLaplaceTest" />
       <option name="METHOD_NAME" value="highAndLowCorners" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaplaceRelaxTest.oneHighCorner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShelterinLaplaceTest.oneHighCorner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.goodlaplace.*" />
+          <option name="PATTERN" value="com.shelterinlaplace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.goodlaplace" />
-      <option name="MAIN_CLASS_NAME" value="com.goodlaplace.LaplaceRelaxTest" />
+      <option name="PACKAGE_NAME" value="com.shelterinlaplace" />
+      <option name="MAIN_CLASS_NAME" value="com.shelterinlaplace.ShelterinLaplaceTest" />
       <option name="METHOD_NAME" value="oneHighCorner" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LaplaceRelaxTest.threeHighCorners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShelterinLaplaceTest.threeHighCorners" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShelterInLaplace" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.goodlaplace.*" />
+          <option name="PATTERN" value="com.shelterinlaplace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.goodlaplace" />
-      <option name="MAIN_CLASS_NAME" value="com.goodlaplace.LaplaceRelaxTest" />
+      <option name="PACKAGE_NAME" value="com.shelterinlaplace" />
+      <option name="MAIN_CLASS_NAME" value="com.shelterinlaplace.ShelterinLaplaceTest" />
       <option name="METHOD_NAME" value="threeHighCorners" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -146,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LaplaceRelaxTest.highAndLowCorners" />
-        <item itemvalue="JUnit.LaplaceRelaxTest.threeHighCorners" />
-        <item itemvalue="JUnit.LaplaceRelaxTest.oneHighCorner" />
-        <item itemvalue="Application.LaplaceRelax" />
-        <item itemvalue="JUnit.ConwayGameOfLifeTest" />
+        <item itemvalue="JUnit.ShelterinLaplaceTest.highAndLowCorners" />
+        <item itemvalue="JUnit.ShelterinLaplaceTest.adjacentHighCorners" />
+        <item itemvalue="JUnit.ShelterinLaplaceTest.threeHighCorners" />
+        <item itemvalue="JUnit.ShelterinLaplaceTest.oneHighCorner" />
+        <item itemvalue="Application.ShelterinLaplace" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +167,7 @@
       <workItem from="1574991279103" duration="4522000" />
       <workItem from="1575034395232" duration="2281000" />
       <workItem from="1575037860686" duration="6230000" />
-      <workItem from="1575068406851" duration="965000" />
+      <workItem from="1575068406851" duration="2098000" />
     </task>
     <servers />
   </component>
@@ -192,17 +191,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/goodlaplace/SimpleWindow.java</url>
-          <line>37</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/shelterinlaplace/SimpleWindow.java</url>
+          <line>36</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/shelterinlaplace/ShelterinLaplace.java</url>
           <line>57</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/shelterinlaplace/ShelterinLaplace.java</url>
           <line>74</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
