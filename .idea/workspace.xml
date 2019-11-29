@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdd26dce-ab60-4054-a8b9-a900f77bf74f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goodlaplace/LaplaceRelax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shelterinlaplace/ShelterinLaplace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/goodlaplace/SimpleWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shelterinlaplace/SimpleWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/goodlaplace/LaplaceRelaxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/shelterinlaplace/ShelterinLaplaceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdd26dce-ab60-4054-a8b9-a900f77bf74f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +162,7 @@
       <workItem from="1574991279103" duration="4522000" />
       <workItem from="1575034395232" duration="2281000" />
       <workItem from="1575037860686" duration="6230000" />
-      <workItem from="1575068406851" duration="2098000" />
+      <workItem from="1575068406851" duration="2645000" />
     </task>
     <servers />
   </component>
