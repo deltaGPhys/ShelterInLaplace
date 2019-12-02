@@ -11,19 +11,23 @@ public class ShelterinLaplace {
     private double[][] velocity;
     private SimpleWindow displayWindow;
     private double maxHeight = 100;
-    private double k = .01;
-    private double d = .01;
+    private double k;
+    private double d;
+    private int sleep;
 
     public ShelterinLaplace() {
 
     }
 
-    public ShelterinLaplace(int dimension, int boxSize, double topLeft, double topRight, double bottomLeft, double bottomRight) {
+    public ShelterinLaplace(int dimension, int boxSize, double topLeft, double topRight, double bottomLeft, double bottomRight, double k, double d, int sleep) {
         this.displayWindow = new SimpleWindow(dimension, boxSize);
         this.dimension = dimension;
         this.world = createStartBorders(this.dimension, topLeft, topRight, bottomLeft, bottomRight);
         this.velocity = new double[dimension][dimension];
         IntStream.range(0,dimension).forEach(row -> Arrays.fill(velocity[row],0.0));
+        this.k = k;
+        this.d = d;
+        this.sleep = sleep;
      }
 
     public double getMaxHeight() {
@@ -71,7 +75,7 @@ public class ShelterinLaplace {
             }
 
             copyAndZeroOut(next, current);
-            this.displayWindow.sleep(25);
+            this.displayWindow.sleep(sleep);
         }
         return current;
     }
