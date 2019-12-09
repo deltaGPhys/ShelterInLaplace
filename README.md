@@ -14,6 +14,11 @@ time limit. The positions are changed according to the velocity at each step.
 As a result, the lattice moves like an elastic sheet, overshooting the equilibrium position and oscillating, eventually damping down to the steady state. 
 The 'height' of each cell is illustrated by color, but this time by HSB colors, instead of RGB, to better show the height contrast.
 
+An animation of the relation process with a large damping factor and lower lattice resolution
+<img src = "LaplaceNormal.gif" width="300px">
+Higher resolution and much lower damping, allowing a great deal of oscillation before settling down to the steady state
+<img src = "LaplaceInertia.gif" width="300px">
+
 A series of images below show how the animation progresses for a setup with two corners fixed 'high' and two fixed 'low.'
 
 <img src = "pic1.png" width="300px">
