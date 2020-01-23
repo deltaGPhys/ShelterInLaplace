@@ -4,6 +4,7 @@ Forked from (https://github.com/deltaGPhys/TheGoodLaplace) -> (https://github.co
 ### Background
 See https://github.com/deltaGPhys/TheGoodLaplace for background on the equation and the relaxation method for finding numerical solutions.
 
+
 ### Execution
 In this implementation, the cells in the array are simulated as if they are discrete parts of a moving lattice. Each element feels an average force
 exerted by its neighbors, based on its position relative to theirs, modeled via Hooke's Law (force proportional to displacement and opposite in direction). 
