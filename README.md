@@ -19,8 +19,10 @@ The 'height' of each cell is illustrated by color, but this time by HSB colors, 
 For a system with two "high" and two "low" corners:
 
 An animation of the relaxation process with a large damping factor and lower lattice resolution
+
 <img src = "LaplaceNormal.gif" width="300px">
 
 Higher resolution and much lower damping, allowing a great deal of oscillation before settling down to the steady state
+
 <img src = "LaplaceInertia.gif" width="300px">
 
